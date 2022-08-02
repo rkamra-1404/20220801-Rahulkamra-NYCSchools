@@ -30,6 +30,7 @@ class SchoolDetailViewModel: SchoolDetailViewModelProtocol {
         service.fetchSchoolDetail(dbname) { (_ result: Result<[School], Error>) in
             switch result {
             case .success(let model):
+                if model.count == 0 { return }
                 self.school = model.first!
                 self.reloadUI.value = true
             case .failure(let error):
