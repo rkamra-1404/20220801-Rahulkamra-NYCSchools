@@ -50,3 +50,6 @@ Make changes and commit them.
 Push changes to your fork.
 
 Open a pull request to the main repository.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
