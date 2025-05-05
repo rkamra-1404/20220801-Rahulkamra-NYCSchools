@@ -10,11 +10,10 @@ An iOS app that provides real-time information on New York City public schools, 
 - Includes school ratings, performance data, and location.
 - Search functionality by district or school name.
 - Data fetched from the NYC Public Schools API.
-- Simple and intuitive UI built with **SwiftUI**.
+- Simple and intuitive UI built with Swift
 
 ## Built With
 - **Swift 5.5** - Programming language used to build the app.
-- **SwiftUI** - Framework for building user interfaces.
 - **CoreData** - For storing local data.
 - **NYC Schools API** - Fetches real-time school data.
 - **Xcode** - The IDE used for development.
